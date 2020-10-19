@@ -1,0 +1,114 @@
+body {
+  background-color: #666;
+}
+#canvas {
+  background-color: transparent;
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+#canvas_bg {
+  background-color: #3BB9FF;
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+
+
+
+.textFederkonstante {
+    position:relative;
+    }
+.textFederkonstante > canvas,
+.textFederkonstante > input {
+    position:relative;
+    left:0px;
+    top:0px;
+    }
+.textFederkonstante > input {
+    left:0px;    /* places the slider */
+    top:20px;
+    }    
+    
+.wrapperFederkonstante {
+    position:relative;
+    }
+.wrapperFederkonstante > canvas,
+.wrapperFederkonstante > input {
+    position:relative;
+    left:0px;
+    top:0px;
+    }
+.wrapperFederkonstante > input {
+    left:0px;    /* places the slider */
+    top:0px;
+    }
+    
+
+.textMasse {
+    position:relative;
+    }
+.textMasse > canvas,
+.textMasse > input {
+    position:relative;
+    left:0px;
+    top:0px;
+    }
+.textMasse > input {
+    left:0px;    /* places the slider */
+    top:0px;
+    }    
+    
+    
+.wrapperMasse {
+    position:relative;
+    }
+.wrapperMasse > canvas,
+.wrapperMasse > input {
+    position:relative;
+    left:0px;
+    top:0px;
+    }
+.wrapperMasse > input {
+    left:0px;    /* places the slider */
+    top:0px;
+    }
+
+
+
+/
+.textErdbeschleunigung {
+    position:relative;
+    }
+.textErdbeschleunigung > canvas,
+.textErdbeschleunigung > input {
+    position:relative;
+    left:0px;
+    top:0px;
+    }
+.textErdbeschleunigung > input {
+    left:0px;    /* places the slider */
+    top:0px;
+    }    
+     
+.wrapperErdbeschleunigung {
+    position:relative;
+    }
+.wrapperErdbeschleunigung > canvas,
+.wrapperErdbeschleunigung > input {
+    position:relative;
+    left:0px;
+    top:0px;
+    }
+.wrapperErdbeschleunigung > input {
+    left:0px;    /* places the slider */
+    top:0px;
+    }
+    
+    
+    
+
+    
+
+
+

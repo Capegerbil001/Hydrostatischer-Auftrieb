@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #666;  
+  font-family: serif, Arial, Helvetica;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50.00%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+#canvas {
+  background-color: transparent;
+  position:relative;
+  top:0px;
+  left:0px;
+}
+#canvas_bg {
+  background-color: #fff;
+  position:relative;
+  top:0px;
+  left:0px;
+}
+
+
+
+.textFederkonstante {
+    position:relative;
+    }
+.textFederkonstante > canvas,
+.textFederkonstante > input {
+    position:relative;
+    left:0px;
+    top:0px;
+    }
+.textFederkonstante > input {
+    left:0px;    /* places the slider */
+    top:20px;
+    }    
+    
+.wrapperFederkonstante {
+    position:relative;
+    }
+.wrapperFederkonstante > canvas,
+.wrapperFederkonstante > input {
+    position:relative;
+    left:0px;
+    top:0px;
+    }
+.wrapperFederkonstante > input {
+    left:0px;    /* places the slider */
+    top:0px;
+    }
+    
+
+.textMasse {
+    position:relative;
+    }
+.textMasse > canvas,
+.textMasse > input {
+    position:relative;
+    left:0px;
+    top:0px;
+    }
+.textMasse > input {
+    left:0px;    /* places the slider */
+    top:0px;
+    }    
+    
+    
+.wrapperMasse {
+    position:relative;
+    }
+.wrapperMasse > canvas,
+.wrapperMasse > input {
+    position:relative;
+    left:0px;
+    top:0px;
+    }
+.wrapperMasse > input {
+    left:0px;    /* places the slider */
+    top:0px;
+    }
+
+
+
+/
+.textErdbeschleunigung {
+    position:relative;
+    }
+.textErdbeschleunigung > canvas,
+.textErdbeschleunigung > input {
+    position:relative;
+    left:0px;
+    top:0px;
+    }
+.textErdbeschleunigung > input {
+    left:0px;    /* places the slider */
+    top:0px;
+    }    
+     
+.wrapperErdbeschleunigung {
+    position:relative;
+    }
+.wrapperErdbeschleunigung > canvas,
+.wrapperErdbeschleunigung > input {
+    position:relative;
+    left:0px;
+    top:0px;
+    }
+.wrapperErdbeschleunigung > input {
+    left:0px;    /* places the slider */
+    top:0px;
+    }
+    
+    
+
+
+
+
+    
+
+
+

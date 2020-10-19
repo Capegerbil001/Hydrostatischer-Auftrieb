@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Prizip von Archimedes</title>
+<link rel="stylesheet" href="./includes/style1-5.css">
+</head>
+<body>
+
+<div>
+  <canvas id="canvas_bg" width="600" height="600"></canvas>
+  <canvas id="canvas" width="600" height="600"></canvas>
+</div>
+
+
+
+<div>
+  <ul class="wrapperFluessigkeitsdichte" style="color:rgba(87,130,280)">
+  <p class="textFluessigkeitsdichte">Flüssigkeitsdichte: <input type="range" min="0.1" max="5.0" value="1.0" step="0.1" class="slider" id="fluessigkeitsdichte" pattern="\d+(,\d{2,2})" 'rgba(87,130,280, 0.6)'><p id="wertFluessigkeitsdichte"></p></p>
+  </ul>
+</div>
+
+<p> a </p>
+
+<div>  
+  <ul class="wrapperKoerperdichte" style="color:rgb(219,50,224)">
+  <p class="textKoerperdichte">Körperdichte: <input type="range" min="0.1" max="5.0" value="0.90" step="0.1" class="slider" id="koerperdichte" pattern="\d+(,\d{2,2})"><p id="wertKoerperdichte"></p></p>
+  </ul>
+</div>
+
+<p> a </p>
+
+<div>
+  <ul class="wrapperErdbeschleunigung" style="color:rgb(247,110,42)">
+  <p class="textErdbeschleunigung">Erdbeschleunigung:  <input type="range" min="0.0" max="20.0" value="9.81" step="0.1" class="slider" id="erdbeschleunigung" pattern="\d+(,\d{2,2})"><p id="wertErdbeschleunigung"></p></p>
+  </ul>
+</div>
+
+<script src= "objects/vector2D.js"></script>
+<script src= "objects/forces.js"></script>
+<script src= "objects/box.js "></script>
+<script src= "auftrieb_javascript_014.js"></script>
+
+</body>	
+</html>

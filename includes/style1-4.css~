@@ -1,0 +1,96 @@
+body {
+  background-color: #ddd;
+}
+#canvas {
+  background-color: transparent;
+  position:absolute;
+  float: left;
+  top:0px;
+  left:0px;
+}
+#canvas_bg {
+  background-color: #fff;
+  position:relative;
+  float: left;
+  top:0px;
+  left:0px;
+}
+
+.wrapperFluessigkeitsdichte {
+  background-color: #f00;
+  position:relative;
+  top:0px;
+  left:600px;
+  width: 180px;
+  height: 0px;
+  float: left;
+  clear: both;
+  margin: 0px;
+  vertical-align: top;
+}
+
+.wrapperKoerperdichte .wrapperErdbeschleunigung {
+  background-color: #f00;
+  position:relative;
+  top:60px;
+  left:600px;
+  width: 180px;
+  height: 0px;
+  float: left;
+  clear: both;
+  margin: 0px;
+  vertical-align: top;
+}
+
+.wrapperErdbeschleunigung {
+  background-color: #f00;
+  position:absolute;
+  top:120px;
+  left:600px;
+  width: 180px;
+  height: 0px;
+  float: left;
+  clear: both;
+  margin: 0px;
+  vertical-align: top;
+}
+
+/*
+div>ul {
+  background-color: #f00;
+  position:relative;
+  top:0px;
+  left:600px;
+  width: 180px;
+  height: 0px;
+  float: left;
+  clear: both;
+  margin: px;
+  vertical-align: top;
+}
+*/
+
+nav>div {
+  background-color: #0f0;  
+  display: inline-block;
+  width: 75px;
+  height: 25px;
+  top:600px;
+  left:0px;  
+  vertical-align: top;
+  margin-top: 600px;
+  margin-left: 0px;
+  
+}
+
+
+
+
+
+    
+    
+
+    
+
+
+
