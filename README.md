@@ -1,2 +1,2 @@
 # Hydrostatischer-Auftrieb
-Eine Simulation des hydrosttischen Auftriebs
+Eine Simulation des hydrostatischen Auftriebs
